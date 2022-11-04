@@ -1,0 +1,37 @@
+.image-container{
+     position: relative;
+  text-align: center;
+  color: white;
+}
+
+.cpu{
+     position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+.ryzen-ready{
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 35px;
+}
+
+.shop-now-button{
+    position: absolute;
+  top: 50%;
+  left: 46%;
+  transform: translate(50%, 50%);
+  background-color: red;
+  color:white;
+  padding:12px;
+  border-radius: 5px;
+  border:none;
+}
+
+.ryzen-image{
+    height:auto;
+    width:auto;
+    max-width:100%;
+}
