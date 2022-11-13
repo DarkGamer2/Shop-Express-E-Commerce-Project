@@ -1,8 +1,8 @@
-require=("dotenv").config();
+require("dotenv").config();
 
-const express=require("express");
+import express from "express";
 const app=express();
-const Account=require("./models/userAccount");
+import Account from "./models/userAccount";
 
 
 app.post('/shop_express/api/createaccount',(req,res)=>{

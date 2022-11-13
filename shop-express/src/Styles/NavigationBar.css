@@ -33,3 +33,7 @@ li{
     /* height:40px; */
     overflow: hidden;
 }
+
+.auth-function{
+    cursor: pointer;
+}

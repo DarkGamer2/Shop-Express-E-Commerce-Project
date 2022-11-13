@@ -6,6 +6,7 @@ export const Items=[
     "itemCurrency":"USD",
     "itemImage":require("../Images/Ryzen 5 5600X.jpg"),
     "itemType":"Desktop Processor",
+    "itemTag":"computer-part",
     "itemID":1
 },
 {
@@ -15,6 +16,7 @@ export const Items=[
     "itemCurrency":"USD",
     "itemImage":require("../Images/A320M.jpg"),
     "itemType":"Desktop Motherboard",
+    "itemTag":"computer-part",
     "itemID":2
 },
 {
@@ -24,6 +26,7 @@ export const Items=[
     "itemCurrency":"USD",
     "itemImage":require("../Images/RTX_3070.jpg"),
     "itemType":"Graphics Card",
+    "itemTag":"computer-part",
     "itemID":3
 },
 {
@@ -69,7 +72,7 @@ export const Items=[
     "itemCurrency":"USD",
     "itemImage":require("../Images/Kingston_Nvme_500GB.jpg"),
     "itemType":"SSD",
-    "itemTag":"display",
+    "itemTag":"computer-part",
     "itemID":8
 },{
     "itemName":"Intel Core i7 11700K Desktop Processor",
@@ -78,7 +81,7 @@ export const Items=[
     "itemCurrency":"USD",
     "itemImage":require("../Images/Intel_11700K.jpg"),
     "itemType":"Desktop Processor",
-     "itemTag":"display",
+     "itemTag":"computer-part",
     "itemID":9
 },
 {
@@ -88,7 +91,16 @@ export const Items=[
     "itemCurrency":"USD",
     "itemImage":require("../Images/MUSEX_RGB_ATX_PC_ CASE.jpg"),
     "itemType":"PC Case",
-     "itemTag":"display",
+     "itemTag":"computer-part",
     "itemID":10
+},{
+    "itemName":"SEEDEEM Toaster",
+    "itemDescription":"A great toaster",
+    "itemPrice":"$30.00",
+    "itemCurrency":"USD",
+    "itemImage":require("../Images/Toaster.jpg"),
+    "itemType":"Electronic",
+     "itemTag":"display",
+    "itemID":11
 }
 ]
